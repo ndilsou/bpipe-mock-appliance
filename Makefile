@@ -1,6 +1,6 @@
 port=8194
 host1=cloudpoint1.bloomberg.com
-host2=cloudpoint1.bloomberg.com
+host2=cloudpoint2.bloomberg.com
 health_check_port=80
 
 
