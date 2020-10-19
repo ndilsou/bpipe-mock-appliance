@@ -15,3 +15,16 @@ Note that this is a dummy and is used only to prevent the LB target group from s
 * `make run` : This will point you to a ZFP B-PIPE at port 8194, with healthcheck on port 80.
 * `make run host=1223.bbg.com port=8194 health_check_port=8888` : This example sets all the parameters manually.
 
+
+## Build an docker image
+```
+sh buildDocker.sh
+```
+
+## Run as standalone docker service
+```
+sh runDockerInstance.sh
+```
+
+## Reference
+https://docs.nginx.com/nginx/admin-guide/load-balancer/tcp-udp-load-balancer/
